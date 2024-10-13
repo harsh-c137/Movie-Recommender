@@ -1,6 +1,4 @@
 .vscode/
 /data/
 /recovenv/
-/src/
-/src.egg-info/
 *.feather

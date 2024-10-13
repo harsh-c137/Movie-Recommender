@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A simple python package to deploy Movie Reco machine learning project on web app
+Home-page: UNKNOWN
+Author: Harsh Deshpande
+Author-email: harshdeshpande2001@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+
+Movie Recommender System Readme, WIP
+
