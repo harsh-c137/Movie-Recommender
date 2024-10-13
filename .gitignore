@@ -3,5 +3,4 @@
 /recovenv/
 /src/
 /src.egg-info/
-/artifacts/
 *.feather
