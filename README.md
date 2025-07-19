@@ -46,7 +46,7 @@ In an age of endless streaming options, users often face "choice paralysis" whic
 ## 🧩 The Pipeline
 
 The recommendation engine is built through a multi-stage data processing pipeline:
-1.  **Data Loading & Merging**: Two datasets (movies and credits) are loaded and merged into a single DataFrame.
+1.  **Data Loading & Merging**: Two datasets (movies and credits) are loaded and merged into a single DataFrame. Both datasets can be donwloaded from Kaggle here: [https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 2.  **Feature Extraction**: Relevant features like `overview`, `genres`, `keywords`, `cast` (top 3), and `director` are extracted. Complex stringified columns are parsed to isolate key tags.
 3.  **Corpus Creation**: All extracted textual features are combined into a single "tags" corpus for each movie, forming the basis for comparison.
 4.  **Text Preprocessing**: The corpus is cleaned by lowercasing all text and applying **stemming** to normalize words (e.g., *action* and *actions* become the same token). Names are concatenated to be treated as single entities (e.g., "Sam Worthington" becomes "SamWorthington").
