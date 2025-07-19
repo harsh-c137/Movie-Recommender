@@ -74,7 +74,7 @@ movies, similarity = load_data()
 def fetch_poster(movie_id):
     """Fetches the movie poster path from the TMDB API."""
     try:
-        url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=b319dc85b5ee3be45947deb65c99bc0e&language=en-US"
+        url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={st.secrets["TMDB_API_KEY"]}&language=en-US"
         response = requests.get(url)
         response.raise_for_status()  # Raises an exception for 4XX/5XX errors
         movie_data_json = response.json()
