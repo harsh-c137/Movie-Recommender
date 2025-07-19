@@ -3,16 +3,18 @@ Discover your next favorite movie with recommendations based on what you already
 
 CineSuggest is a content-based movie recommender system built with Python and Scikit-learn. It analyzes a movie's plot, genre, cast, and crew to find and suggest other films with the most similar content. The entire project is deployed as an interactive web application using Streamlit.
 
-This project is live and accessible at **[ADD YOUR-LIVE-STREAMLIT-URL-HERE]**
+This project is live and accessible at **[https://movierecotmdb.streamlit.app/](https://movierecotmdb.streamlit.app/)**
 
 ## 🧑‍💻 How to Run Locally
 
 First, clone the repository:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+https://github.com/harsh-c137/Movie-Recommender.git
+cd Movie-Recommender
 ```
-Next, get your free API key from The Movie Database (TMDB) here: [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
+Next, get your free API key from The Movie Database (TMDB) here.
+- Log in or create an account on [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
+- Generate the api key here: [https://www.themoviedb.org/subscription](https://www.themoviedb.org/subscription)
 
 Then, create a `.streamlit` folder in the root directory. Inside it, create a file named `secrets.toml` and store your API key in the following format:
 ```toml
@@ -24,7 +26,6 @@ Finally, install the dependencies and launch the app:
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
-*(Note: You'll need to create a `requirements.txt` file containing libraries like `streamlit`, `pandas`, `scikit-learn`, `requests`, and `nltk`)*
 
 ## 🔍 What Problem Does This Project Solve?
 
