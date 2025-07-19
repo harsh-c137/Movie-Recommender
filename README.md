@@ -29,7 +29,7 @@ streamlit run streamlit_app.py
 
 ## 🔍 What Problem Does This Project Solve?
 
-In an age of endless streaming options, users often face "choice paralysis"—the difficulty of deciding what to watch next. Generic recommendations based on popularity often fail to capture individual tastes.
+In an age of endless streaming options, users often face "choice paralysis" which is the difficulty of deciding what to watch next. Generic recommendations based on popularity often fail to capture individual tastes.
 
 **CineSuggest** solves this by providing **content-based recommendations**. Instead of relying on what's popular, it performs a deep-dive into the attributes of a movie you like and finds others that share a similar DNA, leading to more relevant and personalized suggestions.
 
@@ -62,7 +62,7 @@ This method uses the intrinsic properties of items (in this case, movie attribut
 
 **Why Cosine Similarity?**
 
-Cosine similarity is ideal for text analysis because it measures the cosine of the angle between two vectors. This means it evaluates the *orientation* of the vectors, not their magnitude. For text, this is perfect—it tells us if two documents are talking about the same things, regardless of how long the documents are.
+Cosine similarity is ideal for text analysis because it measures the cosine of the angle between two vectors. This means it evaluates the *orientation* of the vectors, not their magnitude. For text, this is perfect as it tells us if two documents are talking about the same things, regardless of how long the documents are.
 
 ## 🚀 Future Plans
 
