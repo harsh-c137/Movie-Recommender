@@ -1,0 +1,23 @@
+name: Keep Streamlit App Awake
+
+on:
+  schedule:
+    # Uses crontab syntax. '*/30 * * * *' is "at every 30th minute".
+    - cron:  '*/30 * * * *'
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "ping"
+  ping:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Runs a single command using the runners shell
+      - name: Send request to the app
+        run: curl -s "https://movierecotmdb.streamlit.app/" > /dev/null
+        # The '-s' flag is for silent mode, and '> /dev/null' discards the output.
