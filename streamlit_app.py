@@ -137,8 +137,8 @@ if movies is not None:
 # --- Footer with Social Links ---
 st.markdown("""
 <div class="footer">
-    <h3>Impressed with AskVault? 🚀</h3>
-    <p>Let's collaborate on your next AI project! I specialize in building intelligent applications that solve real business problems.</p>
+    <h3>Like this Movie Recommender? 🚀</h3>
+    <p>Let's collaborate on your next ML project!</p>
     <div class="social-links">
         <a href="https://www.github.com/harsh-c137" target="_blank">
             <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub Icon" width="20" height="20"> GitHub
