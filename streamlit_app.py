@@ -115,6 +115,21 @@ if movies is not None:
                     st.markdown(f"<p class='movie-title'>{recommended_movies_name[i]}</p>", unsafe_allow_html=True)
                     st.image(recommended_movies_poster[i])
 
-# --- Footer ---
+# --- Footer with Social Links ---
 st.markdown("---")
-st.markdown("Made with ❤️ by Harsh Deshpande")
+
+# Centered text and icons
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <p>Connect with me</p>
+        <a href="https://www.linkedin.com/in/harsh-deshpande-v1/" target="_blank">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9ImZlYXRoZXIgZmVhdGhlci1saW5rZWRpbiI+PHBhdGggZD0iTTE2IDhhNiA2IDAgMCAxIDYgNnY3aC00di03YTMgMyAwIDAgMC0zLTMgMyAzIDAgMCAwLTMgM3Y3SDV2LTdjMC0zLjMxIDEuNDEtNyA2LTd6Ij48L3BhdGg+PHJlY3QgeD0iMiIgeT0iOSIgd2lkdGg9IjQiIGhlaWdodD0iMTIiPjwvcmVjdD48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiI+PC9jaXJjbGU+PC9zdmc+" width="30" height="30" style="margin: 0 10px;">
+        </a>
+        <a href="https://github.com/harsh-c137" target="_blank">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9ImZlYXRoZXIgZmVhdGhlci1naXRodWIiPjxwYXRoIGQ9Ik05IDljLTEuMjcgMS4yNy0yLjA5IDIuODYtMiA1IDAgMy41OCAyLjkxIDYuNSAxLjQyIDcuOS0xLjQxIDEuNC0zLjUzIDEuNTktNS41OSA2LjQxLTIuMDYtNC44Mi0xLjk4LTkuMjYgLjA5LTEzLjUxQzYuODggMCAxMiAwIDEyIDBjMy4xMSAwIDUuMTIgMS42NCA1LjkyIDQuMzhDMjAgNi4xIDIwIDExLjM0IDIwIDExLjM0djEuMzZjMCAuODEtLjY3IDEuNDctMS40NyAxLjQ3SDE4LjVjLS44MSAwLTEuNDctLjY3LTEuNDctMS40N3YtMy4zOWMwLS44MS0uNjctMS40Ny0xLjQ3LTEuNDdoLTEuMDNjLS44MSAwLTEuNDcuNjctMS40NyAxLjQ3djUuNTlDMTEuNDEgMjAgMTAuMjcgMjAgOSAyMGMtMS4yNyAwLTIuNDYtMS4xNy0yLjQ2LTIuNjIgMC0uNDEuMDMtMS4zOS4yOS0yLjM4IDAgMC0xLjA3LjY3LTEuMDctMi4xNyAwLTMgMi40Ni0yLjQ2IDIuNDYtMi40NnptMC0zLjE3YzAgMS4zOC0xLjEyIDIuNS0yLjUgMi41UzQgNy4yMSA0IDUuODMgNS4xMiAzLjMzIDYuNSAzLjMzIDkgNC40NSA5IDUuODN6bTggMGMwIDEuMzgtMS4xMiAyLjUtMi41IDIuNVMxMi41IDcuMjEgMTIuNSA1LjgzaC0xLjA0YzAgMS4zOC0xLjEyIDIuNS0yLjUgMi41UzYgNy4yMSA2IDUuODN2LS44NGMwLTEuMzggMS4xMi0yLjUgMi41LTIuNVMxMSA0LjQ1IDExIDUuODN2Ljg0YzAgMS4zOCAxLjEyIDIuNSAyLjUgMi41czIuNS0xLjEyIDIuNS0yLjV2LS44NGMwLTEuMzggMS4xMi0yLjUgMi41LTIuNVMxOSA0LjQ1IDE5IDUuODN2Ljg0eiI+PC9wYXRoPjwvc3ZnPg==" width="30" height="30" style="margin: 0 10px;">
+        </a>
+    </div>
+    """
+    , unsafe_allow_html=True
+)
