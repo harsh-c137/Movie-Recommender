@@ -71,6 +71,9 @@ Cosine similarity is ideal for text analysis because it measures the cosine of t
 -   **Enhanced UI**: Add more details to the results page, such as the movie's rating, overview, and a link to its TMDB page.
 -   **Scalability**: For a larger dataset, migrate from pickle files to a database for storing and retrieving movie data and features.
 
+## 📝 Note about deployment
+This application is deployed on Streamlit Community Cloud. To ensure the application remains responsive and avoids being put to sleep by the hosting platform's resource management, this repository includes a simple GitHub Action [(.github/workflows/keep-awake.yml)](https://github.com/harsh-c137/Movie-Recommender/blob/main/.github/workflows/keep-awake.yaml) that sends a request to the app every 30 minutes.
+
 ## 🤝 Let's Collaborate
 
 If you're interested in building data-driven applications or have ideas for this project, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/harsh-deshpande-v1/)
